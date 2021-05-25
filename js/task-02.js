@@ -1,7 +1,8 @@
 const calculateEngravingPrice = function (message, pricePerWord) {
-  console.log(pricePerWord);
-  console.log(message.split(" ").length); //message.split(" ").length - ЗЛО!!!, почти как дартвейдер.  Но теперь я умею периводить текст в массив и считать его длину)))
-  //Долго просидел, не знал, что можно  записать через точку несколько команд. ))
+  //   console.log(pricePerWord);
+  //   console.log(message.split(" ").length);
+  //message.split(" ").length - ЗЛО!!!, почти как дартвейдер.  Но теперь я умею периводить текст в массив и считать его длину)))
+  //Долго просидел, не знал, что можно  записать через точку несколько команд. :)
   return message.split(" ").length * pricePerWord;
 };
 /*
